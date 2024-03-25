@@ -1,0 +1,153 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9e1f6;
+  color: #333;
+  background-image: url("https://img.freepik.com/premium-vector/cute-pink-heart-shape-white-wallpaper-illustration-perfect-wallpaper-backdrop-postcard-background-banner-your-design_565280-1131.jpg?w=360");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+nav {
+  text-align: center;
+  background-color: #FFA6CD;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #FFA6CD;
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pg_container{
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header {
+  background-color: #FFA6CD;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+section {
+  margin: 40px 0;
+}
+
+h2 {
+  color: #FFA6CD;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #FFA6CD;
+  border-radius: 8px;
+}
+
+a {
+  display: inline;
+  color: #FFA6CD;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+  background-color: #FFA6CD;
+}
+
+footer {
+  background-color: #FFA6CD;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 5px solid #fff;
+}
+
+.email{
+  color: #FFA6CD;
+  text-decoration: underline;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border: 2px solid #FFA6CD;
+  border-radius: 8px;
+}
+
+
+.profile {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  
+  border-radius: 50%;
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff; /* Adjust the border as needed */
+}
+.header-content {
+  margin-left: 120px; /* Adjust the margin to provide space between image and text */
+}
